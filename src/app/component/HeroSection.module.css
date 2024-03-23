@@ -1,0 +1,61 @@
+/* HeroSection.module.css */
+
+.hero {
+    background-color: #90D26D;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.heroContent {
+    position: relative;
+}
+
+.subname {
+    font-size: 1rem;
+    color: #333333;
+    background-color: #FF9800;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif; /* Contoh font serif */
+}
+
+.heading {
+    font-size: 3rem;
+    color: #333333;
+    margin-top: 6px;
+    animation: bounce 2s infinite alternate;
+    font-family: 'Georgia', Times, serif; /* Contoh font Georgia */
+}
+
+.subheading {
+    font-size: 1.5rem;
+    color: #333333;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(20, end) infinite alternate;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; /* Contoh font Palatino */
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}

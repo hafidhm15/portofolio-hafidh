@@ -1,0 +1,39 @@
+/* PortfolioCard.module.css */
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 300px; /* Atur lebar kartu di sini */
+    margin: 0 auto; /* Menengahkan kartu */
+    margin-bottom: 20px; /* Jarak antara kartu */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.card-image {
+    width: 100%; /* Pastikan gambar mengisi seluruh lebar kontainer */
+    height: 200px; /* Sesuaikan tinggi gambar sesuai kebutuhan */
+    object-fit: cover; /* Atur agar gambar menutupi seluruh area dengan mempertahankan aspek rasio */
+}
+
+
+.content {
+    padding: 20px;
+}
+
+.title {
+    margin-bottom: 10px;
+    color: #333333;
+    font-size: 20px;
+}
+
+.description {
+    color: #666666;
+    font-size: 16px;
+}

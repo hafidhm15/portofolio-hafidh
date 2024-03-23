@@ -1,0 +1,23 @@
+/* PortfolioCardSlider.module.css */
+.portfolio-slider {
+    margin: 0 auto;
+    width: 80%; /* Sesuaikan lebar slider sesuai kebutuhan */
+    background-color: #90D26D;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.arrow-left {
+    left: 20px; /* Sesuaikan jarak panah kiri dari sisi slider */
+}
+
+.arrow-right {
+    right: 20px; /* Sesuaikan jarak panah kanan dari sisi slider */
+}

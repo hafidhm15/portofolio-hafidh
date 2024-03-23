@@ -1,0 +1,53 @@
+/* About.module.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    line-height: 1.6;
+}
+
+.intro {
+    margin-bottom: 20px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.experience {
+    font-style: italic;
+}
+
+/* About.module.css */
+
+.skills {
+    background-color: #ffffff; /* Warna background putih */
+    padding: 20px; /* Padding untuk memberikan jarak antara konten dan tepi container */
+    border-radius: 8px; /* Membuat sudut container sedikit melengkung */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Menambahkan shadow untuk efek 3D */
+    margin-bottom: 20px; /* Margin bawah untuk memberikan jarak antara container dengan konten di bawahnya */
+}
+
+.skills h2 {
+    font-size: 1.5rem; /* Ukuran font untuk judul */
+    margin-bottom: 10px; /* Margin bawah untuk memberikan jarak antara judul dan daftar keterampilan */
+}
+
+.skills ul {
+    list-style-type: none; /* Menghilangkan bullet pada daftar */
+    padding-left: 0; /* Menghilangkan padding kiri */
+}
+
+.skills li {
+    margin-bottom: 5px; /* Margin bawah untuk memberikan jarak antara setiap elemen daftar */
+}
+

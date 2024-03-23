@@ -1,0 +1,44 @@
+/* components/Header.module.css */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex-center;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* components/Header.module.css */
+
+.navLinks {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Menempatkan daftar navigasi di tengah */
+}
+
+.navLinks li {
+    display: inline-block;
+    margin-right: 20px; /* Tambahkan spasi antara elemen navigasi */
+}
+
+.navLinks li:last-child {
+    margin-right: 0;
+}
+
+.navLinks li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navLinks li a:hover {
+    text-decoration: underline;
+}
+
