@@ -6,7 +6,7 @@ const ContactPage = () => {
         <>
             <Header />
             <div className="container mx-auto mt-8 px-4">
-            <h1 className="text-3xl font-semibold mb-4 flex items-center justify-center">Contact Me</h1>
+                <h1 className="text-3xl font-semibold mb-4 flex items-center justify-center">Contact Me</h1>
 
                 <div className="flex flex-col space-y-8 items-center">
                     <a
@@ -25,6 +25,7 @@ const ContactPage = () => {
                     >
                         <span className="text-lg font-semibold">Visit My LinkedIn</span>
                     </a>
+                    {/* Uncomment and update the following <a> tag for a downloadable CV link */}
                     {/* <a
                         href="/your-cv.pdf" // Replace with your CV file path
                         download="your_cv.pdf"
